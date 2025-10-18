@@ -1,0 +1,4 @@
+<p class="text-gray-900 dark:text-white">temp works!</p><!-- Pasar el evento -->
+<app-temh class="text-gray-900 dark:text-white" [mensaje]="title" (mensaje2)="recibirMensaje($event)"></app-temh>
+
+<p class="text-gray-900 dark:text-white">Evento: {{mensaje2}}</p>
