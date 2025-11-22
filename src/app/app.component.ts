@@ -10,7 +10,7 @@ import { TempComponent } from "./tem/temp/temp.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavbarComponent, TemhComponent, TempComponent],
+  imports: [RouterOutlet, NavbarComponent],
   /* imports: [RouterOutlet, DistanciaComponent, MultiplicacionComponent, ZodiacoComponent, NavbarComponent], */
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
